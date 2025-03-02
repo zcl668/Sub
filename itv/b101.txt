@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml" catchup="append" catchup-source="?playseek=?OtherName={(b)yyyyMMddHHmmss}-?OtherName={(e)yyyyMMddHHmmss}"
+#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://logo.doube.eu.org/纯享4K.png" group-title="4K频道",纯享4K
 http://127.0.0.1:5000/TVOD/1000000004000011651/ystenlive/index.m3u8?OtherName=20M2160_易视腾
 #EXTINF:-1 tvg-id="7249" tvg-name="CCTV16" tvg-logo="https://logo.doube.eu.org/CCTV16.png" group-title="4K频道",CCTV-16奥林匹克4K
