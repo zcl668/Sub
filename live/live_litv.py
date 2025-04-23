@@ -50,7 +50,7 @@ class Spider(Spider):
         d = ['#EXTM3U']
         for i in tv_list:
             d.append(f"#EXTINF:-1 tvg-id=\"{i['tvg-id']}\" tvg-name=\"{i['tvg-name']}\" tvg-logo=\"{i['tvg-logo']}\" group-title=\"{i['group-title']}\",{i['name']}")
-            d.append(f'proxy://do=py&type=m3u8&pid={i["pid"]}')
+            d.append(f'{self.getProxyUrl()}&type=m3u8&pid={i["pid"]}')
         return '\n'.join(d)
 
     def homeContent(self, filter):
@@ -92,7 +92,7 @@ class Spider(Spider):
         for i in range(10):
             url = f'https://ntd-tgc.cdn.hinet.net/live/pool/{a}/litv-pc/{a}-avc1_6000000={b}-mp4a_134000_zho={c}-begin={t}0000000-dur=40000000-seq={timestamp}.ts'
             if self.is_proxy:
-                url = f'proxy://do=py&type=ts&url={self.encrypt(url)}'
+                url = f'{self.getProxyUrl()}&type=ts&url={self.encrypt(url)}'
             m3u8_text += f'#EXTINF:4,\n{url}\n'
             timestamp += 1
             t += 4
