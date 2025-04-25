@@ -3,9 +3,9 @@
     "sites": [
         {
             "key": "py_jieyingshi",
-            "name": "界影视(T3)",
+            "name": "金牌影院(T3)",
             "type": 3,
-            "api": "./python/py_jieyingshi.py",
+            "api": "./spider/doubebly_jinpai.py",
             "searchable": 1,
             "filterable": 0,
             "changeable": 0
@@ -14,7 +14,7 @@
             "key": "py_jianpian",
             "name": "荐片(T3)",
             "type": 3,
-            "api": "./python/py_jianpian.py",
+            "api": "./spider/doubebly_jianpian.py",
             "searchable": 1,
             "filterable": 0,
             "changeable": 0
@@ -23,7 +23,7 @@
             "key": "py_aigua",
             "name": "爱瓜TV(T3)",
             "type": 3,
-            "api": "./python/py_aigua.py",
+            "api": "./spider/doubebly_aigua.py",
             "searchable": 1,
             "filterable": 0,
             "changeable": 0
