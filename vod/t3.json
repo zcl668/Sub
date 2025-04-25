@@ -5,7 +5,7 @@
             "key": "py_jieyingshi",
             "name": "金牌影院(T3)",
             "type": 3,
-            "api": "./spider/doubebly_jinpai.py",
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/vod/spider/doubebly_jinpai.py",
             "searchable": 1,
             "filterable": 0,
             "changeable": 0
@@ -14,7 +14,7 @@
             "key": "py_jianpian",
             "name": "荐片(T3)",
             "type": 3,
-            "api": "./spider/doubebly_jianpian.py",
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/vod/spider/doubebly_jianpian.py",
             "searchable": 1,
             "filterable": 0,
             "changeable": 0
@@ -23,7 +23,7 @@
             "key": "py_aigua",
             "name": "爱瓜TV(T3)",
             "type": 3,
-            "api": "./spider/doubebly_aigua.py",
+            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/doube-ba/Sub/refs/heads/main/vod/spider/doubebly_aigua.py",
             "searchable": 1,
             "filterable": 0,
             "changeable": 0
