@@ -1,0 +1,35 @@
+{
+    "logo": "./logo.gif",
+    "sites": [
+        {
+            "key": "py_jieyingshi",
+            "name": "界影视(T3)",
+            "type": 3,
+            "api": "./python/py_jieyingshi.py",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_jianpian",
+            "name": "荐片(T3)",
+            "type": 3,
+            "api": "./python/py_jianpian.py",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 0
+        },
+        {
+            "key": "py_aigua",
+            "name": "爱瓜TV(T3)",
+            "type": 3,
+            "api": "./python/py_aigua.py",
+            "searchable": 1,
+            "filterable": 0,
+            "changeable": 0
+        }
+    ]
+}
+
+
+
