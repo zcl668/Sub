@@ -3,7 +3,7 @@
     {
       "name": "BeeSport直播(python)",
       "type": 3,
-      "api": "./live_beesport.py",
+      "api": "http://test.zcl668.uk/live_beesport.py",
       "ext": {},
       "header": {
         "Referer": "https://p.m82xg4z0cdbz7.com/"
@@ -12,7 +12,7 @@
     {
       "name": "LITV直播(python)",
       "type": 3,
-      "api": "./live_litv.py",
+      "api": "http://test.zcl668.uk/live_beesport.py",
       "ext": {}
     },
     {
